@@ -1,0 +1,19 @@
+# Reconocedor de Dígitos - Dependencias
+# Aplicación de visualización de red neuronal para reconocimiento de dígitos
+
+# Computación científica y arrays
+numpy>=1.19.0,<2.0.0
+
+# Visualización y gráficos
+matplotlib>=3.3.0,<4.0.0
+
+# Nota: tkinter viene incluido con Python, no necesita instalación separada
+# Si en Linux da error, instalar con: sudo apt-get install python3-tk
+
+# Dependencias opcionales para mejor rendimiento (opcional)
+# scipy>=1.5.0,<2.0.0  # Para operaciones matemáticas avanzadas (descomentار si necesitas)
+
+# Para desarrollo (opcional - descomenta si vas a contribuir al código)
+# pytest>=6.0.0  # Para testing
+# black>=21.0.0   # Para formateo de código
+# flake8>=3.8.0   # Para linting
